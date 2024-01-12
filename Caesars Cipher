@@ -7,7 +7,7 @@ a function which takes a ROT13 encoded string as input and returns a decoded str
 All letters will be uppercase. Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do pass them on.
 
   
-function rot13(str) { 
+function rot13(str) {  
             var result = "";  
             for (let i = 0; i < str.length; i++) { 
                 var asciiNum = str[i].charCodeAt();
